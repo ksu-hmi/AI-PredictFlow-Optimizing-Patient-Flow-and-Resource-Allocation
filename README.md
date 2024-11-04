@@ -1,0 +1,2 @@
+# AI-PredictFlow-Optimizing-Patient-Flow-and-Resource-Allocation
+This project focuses on using artificial intelligence (AI) and machine learning (ML) to improve the movement of patients through healthcare settings, especially in busy hospital departments. The goal is to see how predictive models can help make better use of nursing staff and resources, which can improve efficiency and patient care.
