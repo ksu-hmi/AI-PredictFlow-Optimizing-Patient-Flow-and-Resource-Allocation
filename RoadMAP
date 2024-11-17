@@ -1,4 +1,12 @@
-RoadMAP  Sprint 1:
+RoadMAP  
+Sprint 1:
 [x] create ReadMe file 
 [x] create Project Roadmap file
 [PENDING] find related repository and evaluate it
+
+Sprint 2:
+- [x] Expanded README.md with detailed project goals.
+- [x] Added a sample CSV file with mock patient data.
+- [ ] Wrote pseudocode explaining patient flagging and location recommendation processes.
+- [ ] Uploaded a dashboard mockup showing patient flow and workload data.
+- [ ] Updated projectroadmap.md with Sprint 2 progress.
