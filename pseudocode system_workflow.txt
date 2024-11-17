@@ -1,0 +1,25 @@
+System Workflow Pseudocode
+
+1. When a hospitalist consult order is placed:
+   - Flag the patient for potential admission.
+   - Record patient details, including ID, workload, and acuity.
+
+2. Check available units (e.g., MedSurg, PCU):
+   - Compare workload and acuity for each unit.
+   - Identify units with available beds and appropriate capabilities (e.g., medication support).
+
+3. Recommend a unit:
+   - Select the unit with the lowest workload and appropriate acuity level.
+   - Consider specialty requirements and other filters.
+
+4. After the hospitalist places the final admission order:
+   - Verify the recommended unit matches the doctor’s preferences.
+   - Update the recommendation if necessary.
+
+5. Final decision:
+   - Throughput nurse or house supervisor reviews the recommendation.
+   - Communicate with the assigned unit to confirm bed availability.
+
+6. Monitor and adjust:
+   - Continuously track patient flow and unit workload in real-time.
+   - Update recommendations as conditions change.
