@@ -1,5 +1,5 @@
 # AI-PredictFlow-Optimizing-Patient-Flow-and-Resource-Allocation
-This project focuses on using artificial intelligence (AI) and machine learning (ML) to improve patient flow and resource allocation in hospitals. The goal is to predict patient movements—such as admissions, transfers, and discharges—and optimize resource use, especially in busy areas like MedSurg and PCU. By making staffing and bed placement decisions more efficient, this tool aims to reduce delays, improve patient care, and ease the workload on hospital staff.
+This project focuses on using artificial intelligence (AI) and machine learning (ML) to improve patient flow and resource allocation in hospitals. The goal is to predict patient movements such as admissions, transfers, and discharges and optimize resource use, especially in busy areas like MedSurg and PCU. By making staffing and bed placement decisions more efficient, this tool aims to reduce delays, improve patient care, and ease the workload on hospital staff.
 
 How It Works
 Flagging During Admission Process:
@@ -15,6 +15,7 @@ Integration with EHR Tools:
 The system incorporates existing tools within EHR systems, such as Epic’s workload and acuity features. These features provide:
 A workload number per patient to reflect the staff’s current demands.
 An acuity number to measure the intensity of care required for each patient.
+
 Example Scenario:
 Floor 1 and Floor 2 both have 23 patients, but Floor 1 has a higher average workload and acuity. The system would recommend placing the new patient on Floor 2, ensuring fair distribution of resources and preventing staff burnout.
 Customizable Filters:
