@@ -25,9 +25,15 @@ Final Decision and Communication:
 
 The system is a decision-support tool, not a replacement for human judgment. Supervisors and MDs retain the final authority over patient placement.
 Communication remains essential, especially when patient orders are incomplete or specific conditions arise that require manual intervention.
+
 Key Benefits
+
 Efficiency: Speeds up the bed placement process by automating recommendations and reducing manual checks.
+
 Fair Distribution: Avoids favoritism in bed assignments by using objective data like workload and acuity numbers.
+
 Eases Supervisor Workload: Reduces the burden on house supervisors and throughput nurses by streamlining decisions.
+
 Improves Patient Care: Ensures that patients are placed in the most suitable locations for their care needs.
+
 Supports Communication: Facilitates collaboration between MDs, supervisors, and floor staff while providing actionable insights.
