@@ -37,3 +37,8 @@ Eases Supervisor Workload: Reduces the burden on house supervisors and throughpu
 Improves Patient Care: Ensures that patients are placed in the most suitable locations for their care needs.
 
 Supports Communication: Facilitates collaboration between MDs, supervisors, and floor staff while providing actionable insights.
+
+Dashboard Mockup
+The dashboard mockup below illustrates how the system displays patient flow, workload, acuity, and recommendations for resource allocation.
+![Dashboard Mockup](![Dashboard Sample](https://github.com/user-attachments/assets/88fb7130-0fb7-4963-b056-8454fe88e5f8)
+)
