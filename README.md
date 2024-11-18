@@ -39,7 +39,7 @@ Improves Patient Care: Ensures that patients are placed in the most suitable loc
 Supports Communication: Facilitates collaboration between MDs, supervisors, and floor staff while providing actionable insights.
 
 Dashboard Mockup
+
 The dashboard mockup below illustrates how the system displays patient flow, workload, acuity, and recommendations for resource allocation.
-![Dashboard Mockup]
-(![Dashboard Sample]
-(https://github.com/user-attachments/assets/88fb7130-0fb7-4963-b056-8454fe88e5f8)
+
+![Dashboard Sample](https://github.com/user-attachments/assets/54874dfe-cedd-4e86-8909-2d21b81102de)
