@@ -40,5 +40,6 @@ Supports Communication: Facilitates collaboration between MDs, supervisors, and 
 
 Dashboard Mockup
 The dashboard mockup below illustrates how the system displays patient flow, workload, acuity, and recommendations for resource allocation.
-![Dashboard Mockup](![Dashboard Sample](https://github.com/user-attachments/assets/88fb7130-0fb7-4963-b056-8454fe88e5f8)
-)
+![Dashboard Mockup]
+(![Dashboard Sample]
+(https://github.com/user-attachments/assets/88fb7130-0fb7-4963-b056-8454fe88e5f8)
