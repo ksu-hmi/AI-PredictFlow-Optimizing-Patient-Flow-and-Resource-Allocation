@@ -42,4 +42,5 @@ Dashboard Mockup
 
 The dashboard mockup below illustrates how the system displays patient flow, workload, acuity, and recommendations for resource allocation.
 
-![Dashboard Sample](https://github.com/user-attachments/assets/54874dfe-cedd-4e86-8909-2d21b81102de)
+![Dashboard Sample](https://github.com/user-attachments/assets/af6e59a3-7909-46b9-94ea-bddc5eaad7b2)
+
