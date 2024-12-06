@@ -1,0 +1,35 @@
+# Define units with example data 
+units = [
+    {"name": "MedSurg", "floor": 1, "beds_available": 5, "workload": 6, "acuity": 7},  # Higher workload and acuity
+    {"name": "MedSurg", "floor": 2, "beds_available": 5, "workload": 4, "acuity": 5},  # Lower workload and acuity
+    {"name": "PCU", "floor": 3, "beds_available": 3, "workload": 8, "acuity": 9},      # Higher workload and acuity
+    {"name": "PCU", "floor": 4, "beds_available": 3, "workload": 7, "acuity": 8}, ]      # Lower workload and acuity 
+
+# Define patient data (This is what the Hosptlist decided on after seeing the patient)
+patient = {"id": "P001", "required_unit": "MedSurg"}
+
+# Function to recommend the best floor
+def recommend_unit(units, patient):
+    best_unit = None
+    for unit in units:
+        # Check if the unit matches the required type and has available beds
+        if unit["name"] == patient["required_unit"] and unit["beds_available"] > 0:
+            # Compare acuity first it does then workload if acuities are equal
+            if best_unit is None:
+                best_unit = unit
+            else:
+                if unit["acuity"] < best_unit["acuity"]:
+                    best_unit = unit
+                elif unit["acuity"] == best_unit["acuity"] and unit["workload"] < best_unit["workload"]:
+                    best_unit = unit
+
+    # Return the recommendation or a message if no suitable floor is available
+    if best_unit:
+        return (f"Recommend: {best_unit['name']} (Floor: {best_unit['floor']}, "
+                f"Acuity: {best_unit['acuity']}, Workload: {best_unit['workload']})")
+    else:
+        return "No suitable unit available for the patient."
+
+# Get the recommendation
+recommendation = recommend_unit(units, patient)
+print(recommendation)
